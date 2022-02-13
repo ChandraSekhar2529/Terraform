@@ -1,5 +1,6 @@
 provider "aws"{
 	region = "ap-south-1"
+	version = "v0.11.13"
 }
 
 resource "aws_instance" "server"{
